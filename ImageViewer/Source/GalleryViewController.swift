@@ -46,7 +46,7 @@ open class GalleryViewController: UIPageViewController, ItemControllerDelegate {
     fileprivate var closeLayout = ButtonLayout.pinRight(8, 16)
     fileprivate var seeAllCloseLayout = ButtonLayout.pinRight(8, 16)
     fileprivate var thumbnailsLayout = ButtonLayout.pinLeft(8, 16)
-    fileprivate var deleteLayout = ButtonLayout.pinRight(8, 66)
+    fileprivate var deleteLayout = ButtonLayout.pinRight(8, 16)
     fileprivate var statusBarHidden = true
     fileprivate var overlayAccelerationFactor: CGFloat = 1
     fileprivate var rotationDuration = 0.15
